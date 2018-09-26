@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+		<form action="cek.php" method="Post" enctype="multipart/form-data">
+
+			<tr>
+				<td>Hobi</td>
+				<td>:</td>
+				<td><input type="checkbox" name="hobi[]" value="baca"> baca<br> </td>
+				<td><input type="checkbox" name="hobi[]" value="jalan"> jalan<br> </td>
+				<td><input type="checkbox" name="hobi[]" value="tidur"> tidur<br> </td>
+			</tr>
+
+			<tr>
+				<td>Film</td>
+				<td>:</td>
+				<td><input type="checkbox" name="film[]" value="horor"> horor <br> </td>
+				<td><input type="checkbox" name="film[]" value="action"> action <br> </td>
+				<td><input type="checkbox" name="film[]" value="anime"> anime <br> </td>
+				<td><input type="checkbox" name="film[]" value="thrille"> thrille <br> </td>
+				<td><input type="checkbox" name="film[]" value="animasi"> animasi <br> </td>
+			</tr>
+
+			<tr>
+				<td>Tempat Wisata</td>
+				<td>:</td>
+				<td><input type="checkbox" name="tw[]" value="Bali"> Bali <br> </td>
+				<td><input type="checkbox" name="tw[]" value="Raja ampat"> Raja ampat <br> </td>
+				<td><input type="checkbox" name="tw[]" value="Pulau derawan"> Pulau derawan <br> </td>
+				<td><input type="checkbox" name="tw[]" value="Bangka belitung"> Bangka belitung <br> </td>
+				<td><input type="checkbox" name="tw[]" value="Labuan bajo"> Labuan bajo <br> </td>
+			</tr>
+
+			<tr>
+				<td>Gambar</td>
+				<td>:</td>
+				<td><input type="file" width="250px" name="dokumen" id="dokumen"><br></td>
+			</tr>
+
+			<tr>
+			<td><input type="Submit" value="upload"/></td>
+			</tr>
+
+		</form>
+	</table>
+</body>
+</html>
