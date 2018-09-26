@@ -1,1 +1,0 @@
-halaman akhir bisa diperlukan
